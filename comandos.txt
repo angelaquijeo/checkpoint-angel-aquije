@@ -1,0 +1,24 @@
+500  git clone git@github.com:angelaquijeo/checkpoint-angel-aquije.git
+  501  ls
+  502  cd checkpoint-angel-aquije/
+  503  touch main.js index.html
+  504  ls
+  505  git add .
+  506  git commit -m "subiendo los 2 primeros archivos"
+  507  git push
+  508  git branch feature
+  509  git checkout feature
+  510  mkdir hardware
+  511  mkdir software
+  512  mkdir seguridadinformatica
+  513  touch hardware/resumen.txt software/resumen.txt seguridadinformatica/resumen.txt
+  514  git add .
+  515  ls -R
+  516  git commit -m "se crearon los archivos resumen.txt en todas las carpetas de la rama feature"
+  517  git push origin feature
+  518  git checkout master
+  519  mv main.js resumenHardware.txt
+  520  mv index.html resumenSoftware.txt
+  521  ls
+  522  touch comandos.txt
+  523  history
